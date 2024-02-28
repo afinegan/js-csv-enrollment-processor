@@ -2,12 +2,12 @@
   "name": "js-csv-enrollment-processor",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "takes in a folder full of CSV files and separates them into their respective insurance companies",
   "scripts": {
     "start": "node ./src/processCsvEnrollment.js ./data/input",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": ["csv", "insurance", "parser"],
   "author": "",
   "license": "ISC",
   "dependencies": {
